@@ -11,3 +11,7 @@ for (let i = 1; i <= n; i++) {
 for (let i of paresArr) {
     console.log(`${i}^2 = ${i ** 2}`)
 }
+
+paresArr.map(e => {
+    console.log(e)
+})
